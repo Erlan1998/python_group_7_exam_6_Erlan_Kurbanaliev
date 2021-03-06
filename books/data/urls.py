@@ -19,12 +19,14 @@ from webapp.views import (
     index_view,
     guest_add_view,
     guest_update_view,
-    guest_delete_view,
+    guest_delete_view, search_view,
 )
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index_view, name='index_all'),
     path('guest/add/', guest_add_view, name='guest_add'),
     path('guest/<int:id>/update', guest_update_view, name='guest_update'),
     path('guest/<int:id>/delete', guest_delete_view, name='guest_delete'),
+    path('search/', search_view, name='search')
 ]
