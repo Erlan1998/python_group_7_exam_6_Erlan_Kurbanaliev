@@ -1,57 +1,110 @@
 [
 {
   "model": "webapp.guest",
-  "pk": 1,
-  "fields": {
-    "name": "Putin",
-    "mail": "purin@mail.ru",
-    "description": "vfdjkvnfdjvndfjvndfjdfbd",
-    "date_creat": "2021-03-06",
-    "date_update": "2021-03-06T07:13:02.637Z"
-  }
-},
-{
-  "model": "webapp.guest",
-  "pk": 2,
-  "fields": {
-    "name": "Beka",
-    "mail": "Beka@gmail.com",
-    "description": "ebrbrbrtbrtbtbtbrbrtb",
-    "date_creat": "2021-03-06",
-    "date_update": "2021-03-06T07:13:50.876Z"
-  }
-},
-{
-  "model": "webapp.guest",
-  "pk": 3,
+  "pk": 15,
   "fields": {
     "name": "Joke",
     "mail": "Joke@mail.ru",
-    "description": "fdvdvfdvfdvdfvdfv",
-    "date_creat": "2021-03-06",
-    "date_update": "2021-03-06T07:14:09.587Z"
+    "description": "Я Жоодар и я IT- разработчик!",
+    "date_creat": "2021-03-06T11:39:41.730Z",
+    "date_update": "2021-03-06T11:39:41.730Z",
+    "status": "active"
   }
 },
 {
   "model": "webapp.guest",
-  "pk": 4,
+  "pk": 16,
   "fields": {
-    "name": "Alish",
-    "mail": "superboy@mail.ru",
-    "description": "dhdhvmbdfjvbdfjovndlk",
-    "date_creat": "2021-03-06",
-    "date_update": "2021-03-06T07:14:29.658Z"
+    "name": "Putin",
+    "mail": "purin@mail.ru",
+    "description": "Российский государственный и политический деятель, президент Российской Федерации и верховный главнокомандующий Вооружёнными силами Российской Федерации с 7 мая 2012 года",
+    "date_creat": "2021-03-06T11:40:15.129Z",
+    "date_update": "2021-03-06T11:40:15.129Z",
+    "status": "active"
   }
 },
 {
   "model": "webapp.guest",
-  "pk": 5,
+  "pk": 17,
   "fields": {
     "name": "Elon Mask",
     "mail": "Elon@mail.ru",
-    "description": "fvdfbfdbfggbgfbgf",
-    "date_creat": "2021-03-06",
-    "date_update": "2021-03-06T07:14:55.462Z"
+    "description": "Родился 28 июня 1971 года и вырос в Претории (ЮАР) в семье инженера Эррола Маска и его жены, модели Мэй Маск (урожденной Халдеман).",
+    "date_creat": "2021-03-06T11:40:37.235Z",
+    "date_update": "2021-03-06T11:40:37.235Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 18,
+  "fields": {
+    "name": "ERLAN Kurbanaliev",
+    "mail": "kurbanalieverlan@gmail.com",
+    "description": "Студент! Мне 22 года, живу в Бишкеке!",
+    "date_creat": "2021-03-06T11:41:01.862Z",
+    "date_update": "2021-03-06T11:41:01.862Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 19,
+  "fields": {
+    "name": "Джим Кэри",
+    "mail": "djim.keri@mail.ru",
+    "description": "Джеймс Юджин Керри родился 17 января 1962 года в городе Ньюмаркет, Канада. Его родителями были Кэтлин Керри (в девичестве Орам), певица, а позже домохозяйка, и Перси Керри, саксофонист-самоучка и бухгалтер. У Джима есть старшие сестры Пэт и Рита, и старший брат Джон. Джим рос в католической семье.",
+    "date_creat": "2021-03-06T11:42:26.520Z",
+    "date_update": "2021-03-06T11:42:26.520Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 20,
+  "fields": {
+    "name": "Джеки Чан",
+    "mail": "Djeki@gmail.com",
+    "description": "Родился 7 апреля 1954 года в Гонконге в бедной китайской семье. ... До переезда они работали поваром и горничной в резиденции консула Франции в Гонконге. Учился Джеки в начальной школе «Nah-Hwa Primary School», но в возрасте 6 лет был отдан в школу пекинской оперы при Китайском институте оперных исследований в Гонконге.",
+    "date_creat": "2021-03-06T11:53:26.037Z",
+    "date_update": "2021-03-06T11:53:26.037Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 21,
+  "fields": {
+    "name": "Beka",
+    "mail": "Beka@gmail.com",
+    "description": "я не активен!",
+    "date_creat": "2021-03-06T12:34:31.660Z",
+    "date_update": "2021-03-06T12:34:31.660Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 22,
+  "fields": {
+    "name": "Chilintano",
+    "mail": "pikap_master@mail.com",
+    "description": "Адриано Челентано родился в день Бефаны (праздник шуток и розыгрышей) 6 января 1938 года в Милане, на Виа-Глюк, 14 (итал. Via Gluck, 14). Он стал пятым ребёнком в семье, переехавшей из Апулии на север в поисках работы. В момент его появления на свет матери Адриано уже исполнилось сорок четыре года.",
+    "date_creat": "2021-03-06T12:36:28.607Z",
+    "date_update": "2021-03-06T12:36:28.607Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 23,
+  "fields": {
+    "name": "Вандам",
+    "mail": "van@mail.ru",
+    "description": "svsvfvfvdvfvdv",
+    "date_creat": "2021-03-06T12:37:01.399Z",
+    "date_update": "2021-03-06T12:37:01.400Z",
+    "status": "blocked"
   }
 },
 {
