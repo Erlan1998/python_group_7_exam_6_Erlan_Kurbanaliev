@@ -42,3 +42,12 @@ def guest_update_view(request, id):
             guest.save()
             return redirect('index_all')
         return render(request, 'add_guest.html', context={'form': form, 'guest': guest})
+
+
+def guest_delete_view(request, id):
+    guest = get_object_or_404(Guest, id=id)
+    if request.method == 'GET':
+        return render(request, 'delete.html', context={'guest': guest})
+    elif request.method == 'POST':
+        guest.delete()
+    return redirect('index_all')
