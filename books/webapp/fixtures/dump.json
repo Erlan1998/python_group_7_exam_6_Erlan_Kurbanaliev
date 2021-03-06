@@ -1,0 +1,75 @@
+[
+{
+  "model": "webapp.guest",
+  "pk": 1,
+  "fields": {
+    "name": "Putin",
+    "mail": "purin@mail.ru",
+    "description": "vfdjkvnfdjvndfjvndfjdfbd",
+    "date_creat": "2021-03-06",
+    "date_update": "2021-03-06T07:13:02.637Z"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 2,
+  "fields": {
+    "name": "Beka",
+    "mail": "Beka@gmail.com",
+    "description": "ebrbrbrtbrtbtbtbrbrtb",
+    "date_creat": "2021-03-06",
+    "date_update": "2021-03-06T07:13:50.876Z"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 3,
+  "fields": {
+    "name": "Joke",
+    "mail": "Joke@mail.ru",
+    "description": "fdvdvfdvfdvdfvdfv",
+    "date_creat": "2021-03-06",
+    "date_update": "2021-03-06T07:14:09.587Z"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 4,
+  "fields": {
+    "name": "Alish",
+    "mail": "superboy@mail.ru",
+    "description": "dhdhvmbdfjvbdfjovndlk",
+    "date_creat": "2021-03-06",
+    "date_update": "2021-03-06T07:14:29.658Z"
+  }
+},
+{
+  "model": "webapp.guest",
+  "pk": 5,
+  "fields": {
+    "name": "Elon Mask",
+    "mail": "Elon@mail.ru",
+    "description": "fvdfbfdbfggbgfbgf",
+    "date_creat": "2021-03-06",
+    "date_update": "2021-03-06T07:14:55.462Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$WxN53cHnFJoj$ABhSTV5LhGwjCCiATvd/iXvR4e4+PTlRHtbD3QYUVus=",
+    "last_login": "2021-03-06T06:41:49.349Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-03-06T06:38:29.108Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
