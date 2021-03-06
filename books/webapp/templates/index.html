@@ -1,0 +1,22 @@
+{% extends 'shablon.html' %}
+{% block content %}
+        {% if not guests %}
+            <h2>НЕТ ПРОДУКТОВ</h2>
+        {% endif  %}
+    <div class="row">
+        <div class="col-12" style="text-align: center">
+            {% for guest in guests %}
+            <div class="card  card-outline-primary text-xs-center">
+              <div class="card-block">
+                <blockquote class="card-blockquote">
+                    <h4>{{ guest.name }} ({{ guest.mail }})</h4>
+                  <p>{{ guest.description }}</p>
+                    <footer>{{ guest.get_status_display }}</footer>
+                </blockquote>
+              </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+
+{% endblock content %}
