@@ -18,10 +18,12 @@ from django.urls import path
 from webapp.views import (
     index_view,
     guest_add_view,
+    guest_update_view,
 )
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index_view, name='index_all'),
     path('guest/add/', guest_add_view, name='guest_add'),
+    path('guest/<int:id>/update', guest_update_view, name='guest_update'),
 
 ]

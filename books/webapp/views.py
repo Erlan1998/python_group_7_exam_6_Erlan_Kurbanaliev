@@ -23,3 +23,22 @@ def guest_add_view(request):
             return redirect('index_all')
         return render(request, 'add_guest.html', context={'guest': guest})
 
+
+def guest_update_view(request, id):
+    guest = get_object_or_404(Guest, id=id)
+    if request.method == 'GET':
+        form = GuestForm(initial={
+            'name': guest.name,
+            'mail': guest.mail,
+            'description': guest.description
+        })
+        return render(request, 'update.html', context={'form': form, 'guest': guest})
+    elif request.method == 'POST':
+        form = GuestForm(data=request.POST)
+        if form.is_valid():
+            guest.name = request.POST.get('name')
+            guest.mail = request.POST.get('mail')
+            guest.description = request.POST.get('description')
+            guest.save()
+            return redirect('index_all')
+        return render(request, 'add_guest.html', context={'form': form, 'guest': guest})
